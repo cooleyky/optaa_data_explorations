@@ -1,10 +1,9 @@
-name: optaa_data_explorations
+name: optaa
 channels:
+  - defaults
   - conda-forge
 dependencies:
-  # Required for full project functionality (dont remove)
   - pytest
-  # Examples (remove and add as needed)
   - jupyter
   - jupyterlab
   - xarray
@@ -14,3 +13,8 @@ dependencies:
   - netcdf4
   - pandas
   - matplotlib
+  - requests
+  - tqdm
+  - yaml
+  - python
+  - python-dateutil

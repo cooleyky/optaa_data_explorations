@@ -3,9 +3,10 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  - python 
   - pytest
   - jupyter
-  - jupyterlab
+  # - jupyterlab
   - xarray
   - numpy
   - scipy
@@ -16,5 +17,5 @@ dependencies:
   - requests
   - tqdm
   - yaml
-  - python
   - python-dateutil
+  - munch

@@ -76,9 +76,14 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-#/data/
+# but still track the directory structure
+/data/external/
+/data/interim/
+/data/processed/
+/data/raw/
 # I want to be able to handle links in here...need to exclude certain file types
-# instead
+# instead - this comment was part of the initial cookiecutter project template, 
+# and I don't currently understand what they meant, KMC 2 Jun 2023
 
 # Mac OS-specific storage files
 .DS_Store

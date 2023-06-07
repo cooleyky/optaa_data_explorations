@@ -19,3 +19,5 @@ dependencies:
   - yaml
   - python-dateutil
   - munch
+  - h5py
+  - h5netcdf

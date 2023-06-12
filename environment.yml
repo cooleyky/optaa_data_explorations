@@ -21,3 +21,4 @@ dependencies:
   - munch
   - h5py
   - h5netcdf
+  - seaborn
